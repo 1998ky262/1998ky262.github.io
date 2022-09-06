@@ -1,3 +1,5 @@
 # 1998ky262.github.io
 
-サイトを作ろうとはしていますが、
+サイトを作ろうとはしています。
+
+<strong><a href="https://1998ky262.github.io/">こちらから見れます！</a></strong>

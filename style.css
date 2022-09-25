@@ -2,6 +2,7 @@ body{background-color:#383838; font-family: "Arial", "メイリオ";
  color:#00c2d2; padding:20px 20px;}
 
 
-li{float:left; list-style:none; color:white; padding:20px 50px; background-color:#00c2d2; text-align: center;}
+li{float:left; list-style:none; color:white; padding:20px 50px; background-color:#00c2d2; text-align: center;
+ text-decoration: none;
 p{color:white; }
 a{color:white;}

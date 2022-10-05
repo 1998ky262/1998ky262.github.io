@@ -5,4 +5,6 @@ body{background-color:#383838; font-family: "Arial", "メイリオ";
 li{float:left; list-style:none; color:white; padding:20px 50px; background-color:#00c2d2; text-align: center;
  text-decoration: none;
 p{color:white; }
-a{color:white;}
+a:link, a:visited, a:hover, a:active {
+  color: white;
+}

@@ -7,7 +7,7 @@ body{text-align:center; font-family:  "ヒラギノ角ゴ ProN W3", HiraKakuProN
 a{color:black;}
 </style>
   <script>
-    async function useapi(username){
+    async function useapi(){
         const a= await fetch(`https://scratchdb.lefty.one/v3/user/info/cloudcoder19/`);
         const b= await a.json();
         let followers=b["statistics"]["followers"];

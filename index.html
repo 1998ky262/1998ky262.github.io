@@ -5,9 +5,17 @@
 <style>
 body{text-align:center; font-family:  "ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif; line-height:50px; background-color:#f1f1f1;}
 a{color:black;}
-
 </style>
-</head>
+  <script>
+    async function useapi(username){
+        const a= await fetch(`https://scratchdb.lefty.one/v3/user/info/cloudcoder19/`);
+        const b= await a.json();
+        let followers=b["statistics"]["followers"];
+        document.getElementById("count").innerHTML=`現在Cloudcoder19のフォロワーは${followers}人います。`
+}
+useapi();
+  </script>
+    </head>
 <body>
   <h1>1998のサイト</h1>
  <h2>自己紹介</h2>
@@ -16,6 +24,8 @@ a{color:black;}
 <h2>功績</h2>
 <p>イントロコンテスト優勝4回<br>
 JIMOで一流入り</p>
+  <h2>フォロワー</h2>
+  <p　id="count">読み込み中</p>
 <h2>SNSなど</h2>
 <h3>Scratch</h3>
 <a href="https://scratch.mit.edu/users/cloudcoder19">cloudcoder19</a>

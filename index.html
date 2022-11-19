@@ -8,10 +8,10 @@ a{color:black;}
 </style>
   <script>
     async function useapi(){
-        const a= await fetch(`https://scratchdb.lefty.one/v3/user/info/cloudcoder19/`);
+        const a= await fetch(`https://scratchdb.lefty.one/v3/user/info/1998ky262/`);
         const b= await a.json();
         let followers=b["statistics"]["followers"];
-        document.getElementById("count").innerHTML=`現在Cloudcoder19のフォロワーは${followers}人います。`
+        document.getElementById("count").innerHTML=`現在1998ky262のフォロワーは${followers}人います。`
 }
 useapi();
   </script>

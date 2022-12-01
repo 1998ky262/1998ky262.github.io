@@ -1,2 +1,2 @@
 # 1998's website
-作成中... / making now...
+done! / 完成しました！

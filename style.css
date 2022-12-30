@@ -5,6 +5,7 @@ color:white;
 text-align:center;
 font-family: 'Righteous', cursive;
 font-size:150%;
+line-height:200%;
 }
 body:after{
 position: fixed;
